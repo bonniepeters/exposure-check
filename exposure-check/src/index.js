@@ -1,14 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Quiz from "./Components/Quiz"
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
+
+import "./index.css";
+import Questionnaire from "./Components/Questionnaire";
 
 function App() {
   return (
     <div className="App">
-      <Quiz />
+      <Questionnaire />
     </div>
-  )
+  );
 }
 
 const rootElement = document.getElementById("root");
