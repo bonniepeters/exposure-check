@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import listOfQuestions from "./Questions.json";
 
-class Questionnaire2 extends Component {
+class Questionnaire extends Component {
   state = {
-    currentQuestion: 0,
+    currentQuestion: listOfQuestions[0],
     userAnswer: null,
-    options: [],
     potentialPoints: 0,
     userPoints: 0,
     quizComplete: false
@@ -15,25 +14,28 @@ class Questionnaire2 extends Component {
   render() {
     const questions = listOfQuestions.map(question => {
       return (
-        <>
-          <li>{question.question}
+        <form>
+          <label>{question.question}
             {question.options.map(option => {
-              return(
-                <li>{option}</li>
+              return (
+                <label>
+                <input type="radio" value={option}/>
+                  {option}
+                  </label>
               )
             })}
-          </li>
-        </>
+          </label>
+        </form>
       )
     })
       return (
         <div className="Question">
-          <p>
+          <>
             {questions}
-          </p>
+          </>
         </div> 
       );
     }
   }
 
-export default Questionnaire2;
+export default Questionnaire;

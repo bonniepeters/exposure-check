@@ -1,5 +1,6 @@
 [
     {
+      "id": 1,
       "question": "Of the last 5 people you texted, how many are white?",
       "options": [
         1,
@@ -12,7 +13,8 @@
       "potentialPoints": 5
     },
     {
-      "question": "Of the last 5 people you texted, how many are white?",
+      "id": 2,
+      "question": "Of the last 5 neighbors you interacted with, how many are white?",
       "options": [
         1,
         2,
@@ -24,7 +26,8 @@
       "potentialPoints": 5
     },
     {
-      "question": "Of the last 5 people you texted, how many are white?",
+      "id": 3,
+      "question": "Of the last 5 coworkers you interacted with, how many are white?",
       "options": [
         1,
         2,
@@ -36,7 +39,8 @@
       "potentialPoints": 5
     },
     {
-      "question": "Of the last 5 people you texted, how many are white?",
+      "id": 4,
+      "question": "Of the last 5 social gatherings you attended, how many were hosted by white people?",
       "options": [
         1,
         2,
@@ -48,7 +52,8 @@
       "potentialPoints": 5
     },
     {
-      "question": "Of the last 5 people you texted, how many are white?",
+      "id": 5,
+      "question": "Of the last 5 hobbyist groups you joined, how many were organized by white people?",
       "options": [
         1,
         2,
